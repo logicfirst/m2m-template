@@ -1,4 +1,7 @@
-require_relative '../config/environment.rb'
+require_relative './restaurant.rb'
+require_relative './meal.rb'
+require_relative './patron.rb'
+
 
 og = Restaurant.new("Olive Garden", (5...25))
 ob = Restaurant.new("OutBack", (10...50)) 
